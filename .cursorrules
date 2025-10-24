@@ -1,0 +1,38 @@
+# Dev Dashboard - React + TypeScript + Vite + Tailwind
+
+## Stack
+- React 18 with TypeScript (strict mode)
+- Vite 5 for build tooling
+- Tailwind CSS 3.4 for styling (utility-first)
+- ES modules (import/export)
+
+## React Conventions
+- Functional components with hooks only
+- Use TypeScript strict mode
+- Prefer named exports
+- Components in /src/components
+- Services/API calls in /src/services
+- Types in /src/types
+
+## Styling Rules
+- Use Tailwind utility classes exclusively
+- No inline styles
+- Use Tailwind's responsive prefixes (sm:, md:, lg:)
+- Dark mode by default (bg-gray-900, text-white)
+
+## TypeScript Rules
+- No 'any' types
+- Define interfaces for all props and API responses
+- Use type inference where obvious
+
+## Code Style
+- Destructure props in function signature
+- Early returns for error/loading states
+- Always include imports
+- Never truncate code with comments like "// rest of code here"
+
+## When I ask for code:
+- Output complete, runnable code
+- Include all imports
+- Show full file contents, never summarize
+- If creating new files, show the file path
